@@ -1,0 +1,15 @@
+GET http://localhost:3001/api/todos
+###
+POST http://localhost:3001/api/todos
+content-type: application/json
+
+{
+    "description": "Test"
+}
+###
+PUT http://localhost:3001/api/todos/5d5d884d9a97ec2714b9982f
+content-type: application/json
+
+{
+    "done": true
+}
